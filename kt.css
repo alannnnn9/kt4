@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap'); 
+ 
+body { 
+  font-family: Oswald, serif; 
+  background-image: url('https://img.freepik.com/free-photo/yellow-watercolor-paper_95678-446.jpg?t=st=1732389515~exp=1732393115~hmac=0b6a71a6d889cf9ba4cd4826b120d7cb171b44fc08149514faf6c171e8189476&w=1380'); 
+  background-position: 50% 50%; 
+} 
+ 
+.sidebar { 
+  color: rgb(0, 0, 0); 
+  background: linear-gradient(270deg, #717070 38%, #ffffff 99%, #ffffff 99%); 
+} 
+.container-fluid   {
+  margin: 0 auto;
+}
+ 
+.card { 
+  background-color: rgb(255, 255, 255); 
+} 
+ 
+.card a { 
+  text-decoration:underline; 
+  color: hsl(0, 0%, 0%); 
+   
+} 
+ 
+.slide-text, 
+.footer-text { 
+  color: #ffffff; 
+  margin: auto auto; 
+} 
+ 
+footer { 
+  background: linear-gradient(90deg, #656565 38%, #000000 99%, #000000 99%); 
+   
+} 
+ 
+@media (max-width: 755px) { 
+  .carousel-indicators { 
+    display: none; 
+  } 
+} 
+ 
+.container-fluid h1 { 
+  text-align: center; 
+  color: gold; 
+  font-size: 70px; 
+} 
+ 
+.h1 { 
+  text-align: center; 
+  color: rgb(255, 255, 255); 
+  margin-top: 50px; 
+} 
+ 
+footer { 
+  background: linear-gradient(90deg, #606060 38%, #565656 99%, #5a5a5a 99%); 
+     
+} 
+ 
+.h2 { 
+  text-align: center; 
+  margin: 60px; 
+  color: white; 
+}
